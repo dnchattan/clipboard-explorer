@@ -1,0 +1,23 @@
+.App {
+  font-family: sans-serif;
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.PasteBox {
+  display: flex;
+  border: 4px dashed #aaa;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.PasteBox:focus {
+  background-color: lightyellow;
+  border: 4px dashed brown;
+}
